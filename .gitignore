@@ -1,0 +1,49 @@
+# Node modules
+node_modules/
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Rust specific
+target/
+**/*.rs.bk
+
+# Tauri build output
+src-tauri/target/
+src-tauri/pkg/
+
+# Tauri config
+/src-tauri/tauri.conf.json
+
+# Temporary files
+temp/
+tmp/
+
+# Miscellaneous
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# By default, don't ignore the following directories if they are present in the repo.
+!/src-tauri
+!/src
+
+# Ignore the contents of these directories.
+src-tauri/target/*
+src-tauri/pkg/*
+dist/*
+build/*
